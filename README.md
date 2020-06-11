@@ -18,7 +18,7 @@ touch tsconfig.json
 yarn add --dev typescript @types/react @types/node
 ```
 
-## Set Pritter
+## Set Prettier
 
 https://prettier.io/
 
