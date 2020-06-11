@@ -4,7 +4,6 @@ import { ThemeProvider } from '@material-ui/core/styles';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import Layout from 'components/Layout';
 import theme from 'utils/theme';
-// import { wrapper } from 'lib/store';
 
 const App: FC<AppProps> = (props: AppProps) => {
   const { Component, pageProps } = props;
@@ -29,5 +28,4 @@ const App: FC<AppProps> = (props: AppProps) => {
     </React.Fragment>
   );
 };
-// export default wrapper.withRedux(App);
 export default App;
