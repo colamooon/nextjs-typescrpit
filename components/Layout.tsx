@@ -23,14 +23,9 @@ const Layout: FC<Props> = ({
           <a>Home</a>
         </Link>{' '}
         |{' '}
-        <Link href="/sampleclient">
-          <a>SampleClient</a>
-        </Link>{' '}
-        |{' '}
-        <Link href="/product">
-          <a>Product</a>
-        </Link>{' '}
-        | <a href="/api/users">Users API</a>
+        <Link href="/sample" as="/sample">
+          <a>Sample</a>
+        </Link>
       </nav>
     </header>
     <main>{children}</main>
